@@ -1,10 +1,13 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
 import QtQuick.Controls 2.12
+import QtQuick.Layouts 1.3
 
 Window {
     width: 240
     height: 680
+    minimumWidth: 220
+    minimumHeight: 500
     visible: true
     title: qsTr("37_3")
 
